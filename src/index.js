@@ -54,3 +54,30 @@
 
 // const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
+
+//　関数
+// function func1(str1) {
+//   return str1;
+// }
+// console.log(func1("func1です"));
+
+// //関数を先にconstで宣言
+// const func1 = function (str) {
+//   return str;
+// };
+// console.log(func1("func1です"));
+
+// //アロー関数　　引数の括弧はなくても良い。
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("func2です"));
+
+// //処理が単一の場合はreturn {} がなくても動く
+// const func3 = (str) => str;
+// console.log(func3("func3です"));
+
+// const func4 = (num1, num2) => {
+//   return num1 + num2;
+// };
+// console.log(func4(10, 20));
