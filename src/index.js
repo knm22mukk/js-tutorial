@@ -81,3 +81,26 @@
 //   return num1 + num2;
 // };
 // console.log(func4(10, 20));
+
+//分割代入
+
+// オブジェクトで分割代入を使用
+// const myProfile = {
+//   name: "mukk",
+//   age: 31
+// };
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+// console.log(message1);
+
+// const { name, age } = myProfile;
+// const message2 = `名前は${name}です。年齢は${age}歳ですね。`;
+// console.log(message2);
+
+//配列で分割代入を使用する
+// const myProfile = ["mukk", 31];
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳ですね。`;
+// console.log(message3);
+
+// const [name, age] = myProfile;
+// const message4 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(message4);
