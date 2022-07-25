@@ -145,7 +145,7 @@
 // console.log(arr4);
 
 // map,filterを使った配列の処理
-const nameArr = ["tanaka", "yamada", "saitou", "MUKK"];
+// const nameArr = ["tanaka", "yamada", "saitou", "MUKK"];
 
 // for
 // for (let index = 0; index < nameArr.length; index++) {
@@ -193,3 +193,25 @@ const nameArr = ["tanaka", "yamada", "saitou", "MUKK"];
 // };
 // console.log(checkSum(20, 40));
 // console.log(checkSum(50, 60));
+
+// 論理演算子の本当の意味を知ろう && ||
+
+// const flag1 = true;
+// const flag2 = false;
+// if (flag1 || flag2) {
+//   console.log("1か2はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("1も2もtrueになります");
+// }
+
+// ||は左がfalseなら右を返す。
+// nullはfalse判定
+// const num = 100;
+// const fee = num || "金額未設定です。";
+// console.log(fee);
+
+// // &&は左側がtrueなら右を返す。
+// const num2 = 100;
+// const fee2 = num2 && "設定されました";
+// console.log(fee2);
